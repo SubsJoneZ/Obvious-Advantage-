@@ -27,18 +27,18 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Questions</a>
-            </li>
+            <!--<li class="nav-item">
+              <a class="nav-link" href="#questions">Questions</a>
+            </li>-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-bs-haspopup="true" aria-bs-expanded="false">
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Instructors</a>
-                <a class="dropdown-item" href="#">Subjects</a>
+                <a class="dropdown-item" href="#Each One">Article 1</a>
+                <a class="dropdown-item" href="#The Kode">Article 2</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Specialties</a>
+                <a class="dropdown-item" href="#Resource Boxes">Free Resources</a>
               </div>
             </li>
             <li class="nav-item">
@@ -50,6 +50,8 @@
 
       <!-- Showcase -->
       <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="title">Video Presentation</div>
+
         <div class="container">
           <div class="ratio ratio-16x9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/FxhbVW8ABlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -60,19 +62,28 @@
        <!-- Newsletter -->
        <section class="bg-dark text-light p-5">
         <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-md-0">Sign Up For Newsletters</h3>
-
-                <div class="input-group news-input">
-                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                    <button class="btn btn-dark btn-lg" type="button">Send</button>
-                  </div>
+            
+          <form target="_blank" action="https://formsubmit.co/3e3db1e48566d215bd7ab2cb8d28c5dc" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <input type="hidden" name="_autoresponse" value="Thanks for reaching out to us at Obvious Advantage">
+                <input type="hidden" name="_subject" value="New submission!">
+              </div>
             </div>
+            <div class="d-md-flex justify-content-between align-items-center">
+              <h3 class="mb-3 mb-md-0">Sign Up for Newsletters</h3>
+
+              <div class="input-group news-input">
+                  <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button type="submit" class="btn btn-dark btn-lg" type="button">Send</button>
+              </div>
+          </div>
+          </form>
         </div>
       </section>
 
-      <!-- Learn Sections -->
-      <section id="learn" class="p-5 bg-dark text-light">
+      <!-- Article Sections -->
+      <section id="Each One" class="p-5 bg-dark text-light">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
@@ -97,7 +108,7 @@
         </div>
       </section>
 
-      <section id="learn" class="p-5 bg-dark text-light">
+      <section id="The Kode" class="p-5 bg-dark text-light">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md p-5">
@@ -136,7 +147,7 @@
       </section>
 
       <!-- Boxes -->
-      <section class="bg-dark p-5">
+      <section id="Resource Boxes" class="bg-dark p-5">
         <div class="container">
             <div class="row text-center g-4">
                 <div class="col-md">

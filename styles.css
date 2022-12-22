@@ -45,16 +45,43 @@ h3 {
 
 }
 
+h4 {
+    font-family: Impact !important;
+    text-shadow: 2px 2px 30px;
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+
 h5 {
     font-family: Impact !important;
     text-shadow: 2px 2px 4px;
     font-size: 26px;
 }
 
+h6 {
+    font-family: Impact !important;
+    text-shadow: 2px 2px 30px;
+    font-size: 50px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    z-index: 1;
+}
+
 .rounded-circle {
     object-fit: cover;
     height: fit-content;
     width: fit-content;
+}
+
+.title {
+    font-family: Impact !important;
+    text-shadow: 2px 2px 30px;
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+    justify-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 
